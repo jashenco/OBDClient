@@ -1,6 +1,6 @@
 # OBDClient
 
-This repo is a OBD Client.
+This repo is a OBD Client. OBD is used to collect data from your car and read erros.
 
 To run this script, you'll need a Raspberry Pi and an OBD-II Cable. Connect the OBD-II cable from the USB port on the Raspberry Pi to the OBD port of the car.
 
