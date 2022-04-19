@@ -22,3 +22,4 @@ The same URL also accepts a GET command to display the data in a JSON format. Fr
 - Store data in seperate JSON file on Raspberry Pi and send data per (e.g.) 15 minutes to make it better to handle for the OBD server.
 - Implement front-end with a map that displays information about last trips (e.g. fuel consumption, calculated emissions).
 - Implement some kind of recommendation system with tips for drivers.
+- Instead of using hotspot on phone for data transmission, implement a GSM module.
