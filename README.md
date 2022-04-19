@@ -9,7 +9,7 @@ The script connects to the car using the obd-python library.
 As a simple example, we take the cars speed in kph. 
 We tranform the data to the JSON format and add the speed (value) and add the corresponding unit: "kph" (key). We also add a timestamp.
 
-After this, we send the data via HTTP (TCP) to a webserver. We'll call the webserver the OBD Server from now on.
+After this, we send the data via HTTP (TCP) to a webserver. In this case we'll use the built in wifi module of the rapberry pi to auto connect to my phones hotspot on boot. We'll call the webserver the OBD Server from now on.
 Link to OBD Server Github: https://github.com/jashenco/OBDServer.
 For the sake of this project, I've ran the webserver on a Ubuntu Server which can by found following this URL: http://89.99.4.132:8080/.
 The OBD CLient POSTs data to the OBD Server on the following URL: http://89.99.4.132:8080/stats (So with 'stats' added).
